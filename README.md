@@ -1,6 +1,15 @@
 # Contact Management System
 
-The **Contact Management System** is a robust and scalable web backend application designed to efficiently manage contacts. This system allows users to securely store, retrieve, update, and delete contact information while ensuring data security and privacy. With user authentication implemented via **JWT (JSON Web Token)**, each user's data remains isolated and protected. Built with **Express.js** and **MongoDB**, this application provides a RESTful API, making it easy to integrate with other services and frontend applications.
+The **Contact Management System** is a robust and scalable web application designed to efficiently manage contacts. This system allows users to securely store, retrieve, update, and delete contact information while ensuring data security and privacy. With user authentication implemented via **JWT (JSON Web Token)**, each user's data remains isolated and protected. Built with **Express.js** and **MongoDB**, this application provides a RESTful API, making it easy to integrate with other services and frontend applications.
+
+## Table of Contents
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [File Structure](#file-structure)
+- [Installation](#installation)
+- [Running the Server](#running-the-server)
+- [Technologies Used](#technologies-used)
+- [License](#license)
 
 ## Features
 
@@ -12,6 +21,13 @@ The **Contact Management System** is a robust and scalable web backend applicati
 - Contacts are stored individually per user
 - RESTful API with Express.js
 - MongoDB as the database
+
+## Prerequisites
+Before running this project, ensure you have the following installed:
+- **Node.js** (v14 or later)
+- **MongoDB** (local or cloud-based like MongoDB Atlas)
+- **Git** (for cloning the repository)
+- A code editor like **VS Code**
 
 ## File Structure
 
@@ -32,7 +48,7 @@ contact-management-system/
 │   ├── contactsRoutes.js     # Contact management routes
 │   ├── userRoutes.js         # User-related routes
 ├── node_modules/             # Dependencies (auto-generated)
-├── .env                      # Environment variables (set-up by oen-self)
+├── .env                      # Environment variables
 ├── .gitignore                # Files to be ignored in version control
 ├── constants.js              # Constants used in the application
 ├── package-lock.json         # Auto-generated dependency lock file
