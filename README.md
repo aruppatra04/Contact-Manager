@@ -1,6 +1,6 @@
 # Contact Management System
 
-The **Contact Management System** is a robust and scalable web application designed to efficiently manage contacts. This system allows users to securely store, retrieve, update, and delete contact information while ensuring data security and privacy. With user authentication implemented via **JWT (JSON Web Token)**, each user's data remains isolated and protected. Built with **Express.js** and **MongoDB**, this application provides a RESTful API, making it easy to integrate with other services and frontend applications.
+The **Contact Management System** is a robust and scalable web backend application designed to efficiently manage contacts. This system allows users to securely store, retrieve, update, and delete contact information while ensuring data security and privacy. With user authentication implemented via **JWT (JSON Web Token)**, each user's data remains isolated and protected. Built with **Express.js** and **MongoDB**, this application provides a RESTful API, making it easy to integrate with other services and frontend applications.
 
 ## Features
 
